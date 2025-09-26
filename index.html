@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portraits of the Soul - Abhijit Rao Photography</title>
+    <meta name="google" content="notranslate">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Masonry.js CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.css">
+</head>
+<body>
+    <header id="header" class="clickable-header">
+        <h1>Portraits of the Soul</h1>
+    </header>
+
+    <main>
+        <div id="gallery" class="gallery">
+            <!-- Images will be dynamically loaded here -->
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close">&times;</span>
+            <img id="lightbox-image" src="" alt="">
+            <div id="lightbox-description" class="lightbox-description"></div>
+            <div class="lightbox-navigation">
+                <button id="prev-btn" class="nav-btn">&#8249;</button>
+                <button id="next-btn" class="nav-btn">&#8250;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Photographer Info Modal -->
+    <div id="photographer-modal" class="photographer-modal">
+        <div class="photographer-modal-content">
+            <span class="photographer-close">&times;</span>
+            <div class="photographer-info">
+                <h2>Abhijit Rao</h2>
+                <h3>Photographer</h3>
+                
+                <div class="info-section">
+                    <h4>About</h4>
+                    <p>Professional photographer specializing in soulful portraits that capture the essence of human emotion and character. With years of experience behind the lens, Abhijit creates intimate and powerful visual narratives.</p>
+                </div>
+                
+                <div class="info-section">
+                    <h4>Equipment</h4>
+                    <p>Working with a range of professional cameras including the FF Sony A7R3 with a range of portrait lenses like the Voigtlander NOKTON 50mm F1.0, Sony Zeiss 50mm F1.4,  Minolta AF 50mm F 1.4 lens, and other specialized equipment to achieve the perfect shot.</p>
+                </div>
+                
+                <div class="info-section">
+                    <h4>Contact</h4>
+                    <p>For inquiries about photography services, prints, or collaborations please DM on Instagram:</p>
+                    <p><a href="https://www.instagram.com/portraits.of.the.soul/" target="_blank">Portraits.of.the.Soul</a></p>
+                </div>
+                
+                <div class="info-section">
+                    <h4>Copyright</h4>
+                    <p>© 2025 Abhijit Rao. All rights reserved.</p>
+                    <p>All photographs are protected by copyright law. Unauthorized reproduction, distribution, or use without permission is strictly prohibited.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="images.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

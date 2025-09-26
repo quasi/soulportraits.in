@@ -1,0 +1,16 @@
+# Project intent
+
+Soul Portraits is the photography portfolio of Abhijit Rao a professional photographer.
+
+## The Implementation Details
+
+We want this to be a simple static HTML website with following functionality:
+
+- We have the image assets in the images folder. The list of the images is enumerated in the images.js file.
+  This file has the name of the image file and also the description.
+- On load of page we want take this image list from images.js and populate the index page in random order.
+- index page shows a list of photos using https://masonry.desandro.com/ javascript library
+- implement the design of the index page based on the pots-index.png file.
+- on click of any photo, a lightbox opens with the clicked photo in larger size.
+- implement the design of the lightbox based on the pots-iv.png file
+- if image desc is non-empty then display the description
